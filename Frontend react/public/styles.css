@@ -1,0 +1,104 @@
+.nav {
+  background-color: #ffd93d;
+  font-size: 20pt;
+  margin-bottom: 10px;
+  color: #4f200d;
+}
+
+body {
+  font-size: 2rem;
+  background-image: url("https://www.transparenttextures.com/patterns/axiom-pattern.png");
+}
+
+.page-select {
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+}
+
+.page-button {
+  font-size: 15pt;
+  margin-top: 20px;
+  padding: 32px 64px;
+  transition-duration: 0.4s;
+  border-radius: 4px;
+  border: #ff8400 2px solid;
+  font-family: cursive;
+}
+
+.page-button:hover {
+  background-color: #ff8400;
+  color: white;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 480px;
+  margin: 30px auto 20px auto;
+  border: #ff8400 2px solid;
+}
+
+.form input,
+.form textarea {
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+  border: #ffd93d 1px solid;
+  border-radius: 4px;
+}
+.form button {
+  background: #ffd93d;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+  outline: none;
+  margin-top: 3px;
+}
+
+.form-title {
+  width: 480px;
+  margin: 30px auto 20px auto;
+  font-size: 25pt;
+  color: #4f200d;
+  text-align: center;
+  border-radius: 3px;
+  font-family: cursive;
+}
+
+.add-container {
+  background-color: #ff8400;
+  width: 700px;
+  height: auto;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+  margin-top: 30px;
+  padding: 30px;
+  border-radius: 10px;
+  padding-bottom: 2px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.holder-img {
+  height: 300px;
+  width: 250px;
+  object-fit: contain;
+  padding-top: 10px;
+}
+
+.view-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  margin-top: 20px;
+  padding: 20px 30px 20px 30px;
+}
